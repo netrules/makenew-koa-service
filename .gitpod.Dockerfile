@@ -11,7 +11,7 @@ ARG NPM_TOKEN
 
 COPY package.json yarn.lock ./
 RUN echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc
-RUN yarn install --pure-lockfile
+RUN yarn install
 RUN rm -f .npmrc
 COPY . ./
 RUN yarn run build \
