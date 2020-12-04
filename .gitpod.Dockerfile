@@ -2,8 +2,7 @@ FROM gitpod/workspace-full
 
 WORKDIR /usr/src/app
 
-RUN apt-get install --no-cache \
-      ca-certificates
+RUN apt-get install ca-certificates
 
 FROM base as build
 
