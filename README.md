@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/meltwater/makenew-koa-service)
+
 # Node.js Koa Microservice Skeleton
 
 [![npm](https://img.shields.io/badge/npm-%40meltwater%2Fmakenew--koa--service-blue.svg)](https://www.npmjs.com/package/@meltwater/makenew-koa-service)
