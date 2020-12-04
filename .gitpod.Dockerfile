@@ -1,8 +1,6 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full as base
 
 WORKDIR /usr/src/app
-
-RUN sudo apt-get install ca-certificates
 
 FROM base as build
 
