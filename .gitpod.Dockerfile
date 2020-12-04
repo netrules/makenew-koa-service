@@ -1,6 +1,9 @@
-FROM gitpod/workspace-full as base
+FROM node:fermium-alpine as base
 
 WORKDIR /usr/src/app
+
+RUN apk add --no-cache \
+      ca-certificates
 
 FROM base as build
 
