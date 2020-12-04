@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-RUN sudo apt-get install npm
+RUN sudo apt-get install npm -y
 # Install nvm using curl
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 
